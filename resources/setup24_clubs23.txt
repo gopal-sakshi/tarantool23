@@ -1,0 +1,32 @@
+box.schema.space.create('clubs23')
+
+box.space.clubs23:format({
+    { name = 'id', type = 'unsigned' },
+    { name = 'club_name', type = 'string' },
+    { name = 'manager23', type = 'string' },
+    { name = 'stadium23', type = 'string' }
+})
+
+box.space.clubs23:create_index('primary', { parts = { 'id' } })
+box.space.clubs23:create_index('secondary', { parts = { 'club_name' } })
+
+box.space.clubs23:insert { 101, 'Real Madrid', 'ancelotti', 'estadio santiago bernabeu' }
+box.space.clubs23:insert { 102, 'Atleti', 'Simeone', 'Vicente calderon' }
+box.space.clubs23:insert { 103, 'Arsenal', 'arteta', 'emirates' }
+box.space.clubs23.insert {104, 'Bayern', 'tuchel', 'Allianz arena' }
+
+box.space.clubs23:select()
+box.space.clubs23:select(103)
+box.space.clubs23.index.primary:select(102)
+box.space.clubs23.index.secondary:select('Real Madrid')
+
+
+box.space.clubs23:update({102}, {{'=', 102, 'Atletico'}})       // NOT WORKING
+
+box.space.clubs23:delete{102}
+
+box.space.clubs23:truncate()          // delete all rows
+-------------------------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------------------------

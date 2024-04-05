@@ -1,0 +1,18 @@
+Tuples
+- group of datavalues (or) database row
+- datavalues inside tuple ===> fields (ie columns) 
+
+spaces
+- tuples are stored in containers called "spaces"
+- analogous to "tables" in relational databases
+- a space will have primary index & secondary index
+
+
+Tarantool 
+- is both a database manager and an application server.
+- Datatypes =======> msgpack    (OR)    lua
+    boolean     boolean
+    string      string
+    integer     integer (others == unsigned, double, decimal, number)
+    uuid        uuid
+    array       table

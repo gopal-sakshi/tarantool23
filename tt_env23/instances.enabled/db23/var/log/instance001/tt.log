@@ -1,0 +1,164 @@
+Watchdog 2024/04/05 07:43:15 (INFO): using "/home/gopalakrishnas/Desktop/repos23/others23/tarantool23/tt_env23/instances.enabled/db23/config.yaml" cluster config for instance "instance001"
+started
+2024-04-05 07:43:15.591 [11145] main/103/interactive I> Tarantool 3.0.1-0-g31c2ddb310 Linux-x86_64-RelWithDebInfo
+2024-04-05 07:43:15.591 [11145] main/103/interactive I> log level 5 (INFO)
+2024-04-05 07:43:15.591 [11145] main/103/interactive I> wal/engine cleanup is paused
+2024-04-05 07:43:15.591 [11145] main/103/interactive I> mapping 268435456 bytes for memtx tuple arena...
+2024-04-05 07:43:15.591 [11145] main/103/interactive I> Actual slab_alloc_factor calculated on the basis of desired slab_alloc_factor = 1.044274
+2024-04-05 07:43:15.591 [11145] main/103/interactive I> mapping 134217728 bytes for vinyl tuple arena...
+2024-04-05 07:43:15.593 [11145] main/103/interactive I> update replication_synchro_quorum = 1
+2024-04-05 07:43:15.593 [11145] main/103/interactive I> instance uuid 67ab6956-c3e5-454c-bc4f-a3b1078635c4
+2024-04-05 07:43:15.594 [11145] main/103/interactive I> tx_binary: bound to 127.0.0.1:3301
+2024-04-05 07:43:15.594 [11145] main/103/interactive I> initializing an empty data directory
+2024-04-05 07:43:15.612 [11145] main/103/interactive I> assigned id 1 to replica 67ab6956-c3e5-454c-bc4f-a3b1078635c4
+2024-04-05 07:43:15.612 [11145] main/103/interactive I> update replication_synchro_quorum = 1
+2024-04-05 07:43:15.612 [11145] main/103/interactive I> assigned name instance001 to replica 67ab6956-c3e5-454c-bc4f-a3b1078635c4
+2024-04-05 07:43:15.612 [11145] main/103/interactive I> replicaset uuid c21e8e69-c005-414a-b626-575f59995df1
+2024-04-05 07:43:15.612 [11145] main/103/interactive I> replicaset name: replicaset001
+2024-04-05 07:43:15.613 [11145] snapshot/101/main I> saving snapshot `/home/gopalakrishnas/Desktop/repos23/others23/tarantool23/tt_env23/instances.enabled/db23/var/lib/instance001/00000000000000000000.snap.inprogress'
+2024-04-05 07:43:15.618 [11145] snapshot/101/main I> done
+2024-04-05 07:43:15.618 [11145] main/103/interactive I> ready to accept requests
+2024-04-05 07:43:15.618 [11145] main/105/gc I> wal/engine cleanup is resumed
+2024-04-05 07:43:15.618 [11145] main/103/interactive/box.load_cfg I> set 'custom_proc_title' configuration option to "tarantool - instance001"
+2024-04-05 07:43:15.618 [11145] main/103/interactive/box.load_cfg I> set 'instance_name' configuration option to "instance001"
+2024-04-05 07:43:15.618 [11145] main/103/interactive/box.load_cfg I> set 'log_nonblock' configuration option to false
+2024-04-05 07:43:15.618 [11145] main/103/interactive/box.load_cfg I> set 'replicaset_name' configuration option to "replicaset001"
+2024-04-05 07:43:15.618 [11145] main/103/interactive/box.load_cfg I> set 'listen' configuration option to [{"uri":"127.0.0.1:3301"}]
+2024-04-05 07:43:15.618 [11145] main/103/interactive/box.load_cfg I> set 'metrics' configuration option to {"labels":{"alias":"instance001"},"include":["all"],"exclude":[]}
+2024-04-05 07:43:15.619 [11145] main/106/checkpoint_daemon I> scheduled next checkpoint for Fri Apr  5 09:16:52 2024
+2024-04-05 07:43:15.619 [11145] main I> entering the event loop
+2024-04-05 08:59:27.922 [11145] main C> got signal 2 - Interrupt
+2024-04-05 08:59:27.922 [11145] main/181/iproto.shutdown I> tx_binary: stopped
+Watchdog 2024/04/05 08:59:27 (INFO): the Instance has shutdown.
+Watchdog 2024/04/05 09:09:51 (INFO): using "/home/gopalakrishnas/Desktop/repos23/others23/tarantool23/tt_env23/instances.enabled/db23/config.yaml" cluster config for instance "instance001"
+started
+2024-04-05 09:09:51.583 [14898] main/103/interactive I> Tarantool 3.0.1-0-g31c2ddb310 Linux-x86_64-RelWithDebInfo
+2024-04-05 09:09:51.583 [14898] main/103/interactive I> log level 5 (INFO)
+2024-04-05 09:09:51.583 [14898] main/103/interactive I> wal/engine cleanup is paused
+2024-04-05 09:09:51.583 [14898] main/103/interactive I> mapping 268435456 bytes for memtx tuple arena...
+2024-04-05 09:09:51.583 [14898] main/103/interactive I> Actual slab_alloc_factor calculated on the basis of desired slab_alloc_factor = 1.044274
+2024-04-05 09:09:51.583 [14898] main/103/interactive I> mapping 134217728 bytes for vinyl tuple arena...
+2024-04-05 09:09:51.586 [14898] main/103/interactive/box.upgrade I> Recovering snapshot with schema version 3.0.0
+2024-04-05 09:09:51.591 [14898] main/103/interactive I> update replication_synchro_quorum = 1
+2024-04-05 09:09:51.591 [14898] main/103/interactive I> instance uuid 67ab6956-c3e5-454c-bc4f-a3b1078635c4
+2024-04-05 09:09:51.591 [14898] main/103/interactive I> instance vclock {1: 1}
+2024-04-05 09:09:51.591 [14898] main/103/interactive I> tx_binary: bound to 127.0.0.1:3301
+2024-04-05 09:09:51.592 [14898] main/103/interactive I> recovery start
+2024-04-05 09:09:51.592 [14898] main/103/interactive I> recovering from `/home/gopalakrishnas/Desktop/repos23/others23/tarantool23/tt_env23/instances.enabled/db23/var/lib/instance001/00000000000000000000.snap'
+2024-04-05 09:09:51.592 [14898] main/103/interactive I> replicaset name: replicaset001
+2024-04-05 09:09:51.592 [14898] main/103/interactive I> replicaset uuid c21e8e69-c005-414a-b626-575f59995df1
+2024-04-05 09:09:51.610 [14898] main/103/interactive I> assigned id 1 to replica 67ab6956-c3e5-454c-bc4f-a3b1078635c4
+2024-04-05 09:09:51.611 [14898] main/103/interactive I> update replication_synchro_quorum = 1
+2024-04-05 09:09:51.611 [14898] main/103/interactive I> assigned name instance001 to replica 67ab6956-c3e5-454c-bc4f-a3b1078635c4
+2024-04-05 09:09:51.611 [14898] main/103/interactive I> recover from `/home/gopalakrishnas/Desktop/repos23/others23/tarantool23/tt_env23/instances.enabled/db23/var/lib/instance001/00000000000000000000.xlog'
+2024-04-05 09:09:51.611 [14898] main/103/interactive I> done `/home/gopalakrishnas/Desktop/repos23/others23/tarantool23/tt_env23/instances.enabled/db23/var/lib/instance001/00000000000000000000.xlog'
+2024-04-05 09:09:51.611 [14898] main/103/interactive I> recover from `/home/gopalakrishnas/Desktop/repos23/others23/tarantool23/tt_env23/instances.enabled/db23/var/lib/instance001/00000000000000000001.xlog'
+2024-04-05 09:09:51.611 [14898] main/103/interactive I> done `/home/gopalakrishnas/Desktop/repos23/others23/tarantool23/tt_env23/instances.enabled/db23/var/lib/instance001/00000000000000000001.xlog'
+2024-04-05 09:09:51.611 [14898] main/103/interactive I> ready to accept requests
+2024-04-05 09:09:51.611 [14898] main/103/interactive I> leaving orphan mode
+2024-04-05 09:09:51.611 [14898] main/105/gc I> wal/engine cleanup is resumed
+2024-04-05 09:09:51.611 [14898] main/103/interactive/box.load_cfg I> set 'custom_proc_title' configuration option to "tarantool - instance001"
+2024-04-05 09:09:51.611 [14898] main/103/interactive/box.load_cfg I> set 'instance_name' configuration option to "instance001"
+2024-04-05 09:09:51.611 [14898] main/103/interactive/box.load_cfg I> set 'log_nonblock' configuration option to false
+2024-04-05 09:09:51.611 [14898] main/103/interactive/box.load_cfg I> set 'replicaset_name' configuration option to "replicaset001"
+2024-04-05 09:09:51.611 [14898] main/103/interactive/box.load_cfg I> set 'listen' configuration option to [{"uri":"127.0.0.1:3301"}]
+2024-04-05 09:09:51.612 [14898] main/103/interactive/box.load_cfg I> set 'metrics' configuration option to {"labels":{"alias":"instance001"},"include":["all"],"exclude":[]}
+2024-04-05 09:09:51.612 [14898] main/106/checkpoint_daemon I> scheduled next checkpoint for Fri Apr  5 10:51:46 2024
+2024-04-05 09:09:51.624 [14898] main/103/interactive I> update replication_synchro_quorum = 1
+2024-04-05 09:09:51.625 [14898] main/106/checkpoint_daemon I> scheduled next checkpoint for Fri Apr  5 11:06:21 2024
+2024-04-05 09:09:51.626 [14898] main I> entering the event loop
+2024-04-05 09:16:37.637 [14898] main/119/console/unix/: C> Potentially long select from space 'clubs23' (512)
+ stack traceback:
+	builtin/box/schema.lua:2465: in function 'log_long_select'
+	builtin/box/schema.lua:2482: in function <builtin/box/schema.lua:2468>
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function <builtin/box/console.lua:400>
+	[string "local function func(...) return require('cons..."]:1: in main chunk
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function 'eval'
+	builtin/box/console.lua:819: in function 'repl'
+	builtin/box/console.lua:988: in function <builtin/box/console.lua:974>
+	[C]: in function 'pcall'
+	builtin/socket.lua:1138: in function <builtin/socket.lua:1136>
+2024-04-05 09:17:39.928 [14898] main/119/console/unix/: C> Potentially long select from space 'clubs23' (512)
+ stack traceback:
+	builtin/box/schema.lua:2465: in function 'log_long_select'
+	builtin/box/schema.lua:2482: in function <builtin/box/schema.lua:2468>
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function <builtin/box/console.lua:400>
+	[string "local function func(...) return require('cons..."]:1: in main chunk
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function 'eval'
+	builtin/box/console.lua:819: in function 'repl'
+	builtin/box/console.lua:988: in function <builtin/box/console.lua:974>
+	[C]: in function 'pcall'
+	builtin/socket.lua:1138: in function <builtin/socket.lua:1136>
+2024-04-05 11:35:35.709 [14898] main/119/console/unix/: C> Potentially long select from space 'clubs23' (512)
+ stack traceback:
+	builtin/box/schema.lua:2465: in function 'log_long_select'
+	builtin/box/schema.lua:2482: in function <builtin/box/schema.lua:2468>
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function <builtin/box/console.lua:400>
+	[string "local function func(...) return require('cons..."]:1: in main chunk
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function 'eval'
+	builtin/box/console.lua:819: in function 'repl'
+	builtin/box/console.lua:988: in function <builtin/box/console.lua:974>
+	[C]: in function 'pcall'
+	builtin/socket.lua:1138: in function <builtin/socket.lua:1136>
+2024-04-05 11:38:10.070 [14898] main/119/console/unix/: C> Potentially long select from space 'clubs23' (512)
+ stack traceback:
+	builtin/box/schema.lua:2465: in function 'log_long_select'
+	builtin/box/schema.lua:2482: in function <builtin/box/schema.lua:2468>
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function <builtin/box/console.lua:400>
+	[string "local function func(...) return require('cons..."]:1: in main chunk
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function 'eval'
+	builtin/box/console.lua:819: in function 'repl'
+	builtin/box/console.lua:988: in function <builtin/box/console.lua:974>
+	[C]: in function 'pcall'
+	builtin/socket.lua:1138: in function <builtin/socket.lua:1136>
+2024-04-05 11:38:20.984 [14898] main/119/console/unix/: C> Potentially long select from space 'clubs23' (512)
+ stack traceback:
+	builtin/box/schema.lua:2465: in function 'log_long_select'
+	builtin/box/schema.lua:2482: in function <builtin/box/schema.lua:2468>
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function <builtin/box/console.lua:400>
+	[string "local function func(...) return require('cons..."]:1: in main chunk
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function 'eval'
+	builtin/box/console.lua:819: in function 'repl'
+	builtin/box/console.lua:988: in function <builtin/box/console.lua:974>
+	[C]: in function 'pcall'
+	builtin/socket.lua:1138: in function <builtin/socket.lua:1136>
+2024-04-05 11:38:55.661 [14898] main/119/console/unix/: C> Potentially long select from space 'clubs23' (512)
+ stack traceback:
+	builtin/box/schema.lua:2465: in function 'log_long_select'
+	builtin/box/schema.lua:2482: in function <builtin/box/schema.lua:2468>
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function <builtin/box/console.lua:400>
+	[string "local function func(...) return require('cons..."]:1: in main chunk
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function 'eval'
+	builtin/box/console.lua:819: in function 'repl'
+	builtin/box/console.lua:988: in function <builtin/box/console.lua:974>
+	[C]: in function 'pcall'
+	builtin/socket.lua:1138: in function <builtin/socket.lua:1136>
+2024-04-05 11:41:56.710 [14898] main/119/console/unix/: C> Potentially long select from space 'clubs23' (512)
+ stack traceback:
+	builtin/box/schema.lua:2465: in function 'log_long_select'
+	builtin/box/schema.lua:2482: in function <builtin/box/schema.lua:2468>
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function <builtin/box/console.lua:400>
+	[string "local function func(...) return require('cons..."]:1: in main chunk
+	[C]: in function 'pcall'
+	builtin/box/console.lua:427: in function 'eval'
+	builtin/box/console.lua:819: in function 'repl'
+	builtin/box/console.lua:988: in function <builtin/box/console.lua:974>
+	[C]: in function 'pcall'
+	builtin/socket.lua:1138: in function <builtin/socket.lua:1136>
+2024-04-05 13:13:02.501 [14898] snapshot/101/main I> saving snapshot `/home/gopalakrishnas/Desktop/repos23/others23/tarantool23/tt_env23/instances.enabled/db23/var/lib/instance001/00000000000000000017.snap.inprogress'
+2024-04-05 13:13:02.505 [14898] snapshot/101/main I> done
+2024-04-05 13:13:02.505 [14898] main/106/checkpoint_daemon I> scheduled next checkpoint for Fri Apr  5 14:13:02 2024
+2024-04-05 14:13:02.501 [14898] main/106/checkpoint_daemon I> scheduled next checkpoint for Fri Apr  5 15:13:02 2024

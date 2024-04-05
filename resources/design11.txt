@@ -1,0 +1,21 @@
+MODULES
++-----------------+------+---------------------+
+| NAME            | SIZE | PURPOSE             |
++-----------------+------+---------------------+
+| box             | 1432 | Database Management |
+| clock           |  188 | Seconds             |
+| crypto          |    4 | Cryptography        |
++-----------------+------+---------------------+
+
+
+one does not use longitude/latitude navigation by talking about “Row#2 Column #2”, 
+one uses the 
+    contents of the Name column and 
+    name of the Size column 
+    by talking about “the size, where the name is ‘clock’”. 
+    
+To be more exact, this is what one says:
+- SELECT size FROM modules WHERE name = 'clock';
+- say pg table is 123 Kb
+    within those 123 Kb memory space on harddisk
+    we want that space where "name is clock"
