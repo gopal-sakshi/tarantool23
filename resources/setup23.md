@@ -14,6 +14,9 @@ now upgrading to v3
 curl -L https://tarantool.io/vWeGJvD/release/3/installer.sh | bash
 sudo apt-get install -y tarantool
 tarantool -v
+
+tt version      // to check version of tt
+-- tt is like python virtual env
 ====================================================================================
 
 mkdir tt_env23
