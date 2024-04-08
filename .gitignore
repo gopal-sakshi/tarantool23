@@ -1,3 +1,6 @@
 .rocks
 templates23_ignore
 tt_env24_ignore
+
+tt_env23/instances.enabled/db23/var/*
+
