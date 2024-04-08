@@ -9,3 +9,8 @@ YAML configuration allows you to provide the full cluster topology and specify a
 
 In version 2.11 and earlier: In code using the box.cfg API.
 =========================================================================================
+
+view contents of snap, xlog files
+
+tt cat 00000000000000000000.xlog
+tt cat 00000000000000000000.snap

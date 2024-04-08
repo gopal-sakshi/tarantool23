@@ -23,7 +23,7 @@ function M.start()
     -- tt rocks install http        (OR)
     -- luarocks --server=https://rocks.tarantool.org/ --local install http
 
-    local server = require('http.server').new('0.0.0.0', 9245, { log_requests = false})
+    local server = require('http.server').new('0.0.0.0', 19245, { log_requests = false})
 
     server:route( { path = '/' }, basePathHandler)
     server:route( { path = '/path11' }, path11)
