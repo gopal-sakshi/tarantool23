@@ -1,0 +1,14 @@
+Tarantool GUI
+
+https://github.com/tarantool/awesome-tarantool?tab=readme-ov-file
+
+docker run -p 18000:80 quay.io/basis-company/tarantool-admin
+docker run --name tarantool_gui -d -p 18000:80 quay.io/basis-company/tarantool-admin
+
+open ipAddress:18000        in your browser
+new connection
+    Hostname ---> give ip address
+    port -------> 3301
+    username, password ---> guest
+
+==================================================================
